@@ -42,18 +42,18 @@
     },
     "autoload": {
         "psr-4": {
-            "Cog\\Laravel\\Clickhouse\\": "src/"
+            "Diiimonn\\Laravel\\Clickhouse\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Cog\\Tests\\Laravel\\Clickhouse\\": "tests/"
+            "Diiimonn\\Tests\\Laravel\\Clickhouse\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Cog\\Laravel\\Clickhouse\\ClickhouseServiceProvider"
+                "Diiimonn\\Laravel\\Clickhouse\\ClickhouseServiceProvider"
             ]
         }
     },
