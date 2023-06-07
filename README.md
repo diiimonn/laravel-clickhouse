@@ -2,12 +2,6 @@
 
 ![laravel-clickhouse](https://user-images.githubusercontent.com/1849174/158847081-af69213c-7f66-40e8-be0b-f127f128c653.png)
 
-<p align="center">
-<a href="https://discord.gg/YcZDjNTzSa"><img src="https://img.shields.io/static/v1?logo=discord&label=&message=Discord&color=36393f&style=flat-square" alt="Discord"></a>
-<a href="https://github.com/cybercog/laravel-clickhouse/releases"><img src="https://img.shields.io/github/release/cybercog/laravel-clickhouse.svg?style=flat-square" alt="Releases"></a>
-<a href="https://github.com/cybercog/laravel-clickhouse/blob/master/LICENSE"><img src="https://img.shields.io/github/license/cybercog/laravel-clickhouse.svg?style=flat-square" alt="License"></a>
-</p>
-
 ## Introduction
 
 Laravel ClickHouse database integration.
@@ -24,7 +18,7 @@ This package includes generation and execution of the ClickHouse database migrat
 Pull in the package through [Composer](https://getcomposer.org/).
 
 ```shell
-composer require cybercog/laravel-clickhouse
+composer require diiimonn/laravel-clickhouse
 ```
 
 ## Setup
@@ -94,7 +88,17 @@ You can specify how many files need to be applied:
 ```shell
 php artisan clickhouse:migrate --step=1
 ```
-
+​
+5
+<p align="center">
+6
+<a href="https://discord.gg/YcZDjNTzSa"><img src="https://img.shields.io/static/v1?logo=discord&label=&message=Discord&color=36393f&style=flat-square" alt="Discord"></a>
+7
+<a href="https://github.com/cybercog/laravel-clickhouse/releases"><img src="https://img.shields.io/github/release/cybercog/laravel-clickhouse.svg?style=flat-square" alt="Releases"></a>
+8
+<a href="https://github.com/cybercog/laravel-clickhouse/blob/master/LICENSE"><img src="https://img.shields.io/github/license/cybercog/laravel-clickhouse.svg?style=flat-square" alt="License"></a>
+9
+</p>
 > Value `0` is default — all files
 
 #### Rollback migrations
@@ -113,13 +117,7 @@ Detailed changes for each release are documented in the [CHANGELOG.md](https://g
 
 [![Stargazers over time](https://chart.yhype.me/github/repository-star/v1/R_kgDOHA8mbQ.svg)](https://yhype.me?utm_source=github&utm_medium=cybercog-laravel-clickhouse&utm_content=chart-repository-star-cumulative)
 
-## About CyberCog
-
-[CyberCog] is a Social Unity of enthusiasts. Research the best solutions in product & software development is our passion.
-
 - [Follow us on Twitter]
-
-<a href="https://cybercog.su"><img src="https://cloud.githubusercontent.com/assets/1849174/18418932/e9edb390-7860-11e6-8a43-aa3fad524664.png" alt="CyberCog"></a>
 
 [Anton Komarev]: https://komarev.com
 [CyberCog]: https://cybercog.su
